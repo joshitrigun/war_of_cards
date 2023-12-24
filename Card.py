@@ -1,3 +1,4 @@
+import random
 
 suits = ("Clubs", "Diamonds", "Hearts", 'Spades')
 ranks = ("Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace")
@@ -43,4 +44,4 @@ three_of_clubs = Card("Clubs", "Three")
 # print(three_of_clubs.rank)
 # print(three_of_clubs.value)
 
-print(two_of_hearts.value == three_of_clubs.value)
+# print(two_of_hearts.value == three_of_clubs.value)
